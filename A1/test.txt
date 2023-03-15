@@ -1,0 +1,21 @@
+forward 100
+forward -1000000
+left
+forward -10000000
+right
+forward 100
+left
+forward 100
+right
+loop 1
+  forward 1000000
+  backward -100000
+  left
+  forward 100
+  left
+  forward 100
+  right
+  backward -10000
+  backward 100
+  right
+  forward 100
